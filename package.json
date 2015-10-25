@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "description": "A starter test project for Gemini",
-  "repository": "https://bitbucket.org/knikolaenko/gemini",
+  "repository": "https://github.com/knikolaenko-elinext/gemini",
   "license": "MIT",
   "dependencies": {
     "angular": "~1.4.0",

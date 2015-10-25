@@ -16,7 +16,7 @@ Also few npm packages must be installed on your system globally to build the pro
 
 ### Clone project
 
-	git clone https://knikolaenko@bitbucket.org/knikolaenko/gemini.git
+	git clone https://github.com/knikolaenko-elinext/gemini.git
 	cd gemini
 	
 ### Install Dependencies
