@@ -1,0 +1,8 @@
+<div ng-controller="noteEditController">
+  <form name="noteEditForm" ng-submit="save(note)">
+    <div class="form-group">
+      <textarea ng-model="note.title" class="form-control" rows="3" autofocus></textarea>
+    </div>
+    <button id="saveNoteBtn" type="submit" class="btn btn-success" translate>Save</button>
+  </form>
+</div>

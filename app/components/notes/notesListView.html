@@ -1,0 +1,8 @@
+<div ng-controller="notesListController">
+	<div class="list-group">
+	  <button ng-repeat="note in notes" type="button" class="list-group-item" ui-sref="notes.detail({'noteId':note.id})">{{note.title | limitTo : 63}}</button>
+	</div>
+  <div>
+    <button id="newNoteBtn" ui-sref="notes.create" class="btn btn-info" translate>New</button>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<nav class="gemini-navbar navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="javascript:;" ui-sref="notes.list" translate>Gemini</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ng-class="{'active': $state.includes('notes')}">
+          <a href="javascript:;" ui-sref="notes.list"><span translate>Notes</span><span ng-if="$state.includes('notes.')" class="sr-only"></span></a>
+        </li>
+        <li ng-class="{'active': $state.includes('about')}">
+          <a href="javascript:;" ui-sref="about"><span translate>About</span><span ng-if="$state.includes('about.')" class="sr-only"></span></a>
+        </li>
+      </ul>
+      
+      <p class="navbar-text navbar-right">
+      	<span ng-repeat="lang in languages">
+      		<a href="javascript:;" class="navbar-link" 
+      			ng-class="{'selected-lang':gettextCatalog.getCurrentLanguage() === lang}"
+      			ng-click="gettextCatalog.setCurrentLanguage(lang)">{{lang}}</a>
+      	</span>
+      </p>
+    </div>
+    <!-- /.navbar-collapse -->   
+  </div>
+  <!-- /.container-fluid -->
+</nav>

@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: app/components/navbar/navbarView.html:13
+msgid "About"
+msgstr ""
+
+#: app/components/notes/noteDetailView.html:4
+msgid "Edit"
+msgstr ""
+
+#: app/components/navbar/navbarView.html:4
+msgid "Gemini"
+msgstr ""
+
+#: app/components/about/aboutView.html:2
+msgid "Gemini Test Application"
+msgstr ""
+
+#: app/components/notes/notesListView.html:6
+msgid "New"
+msgstr ""
+
+#: app/components/navbar/navbarView.html:10
+msgid "Notes"
+msgstr ""
+
+#: app/components/notes/noteDetailView.html:5
+msgid "Remove"
+msgstr ""
+
+#: app/components/notes/noteCreateView.html:6
+#: app/components/notes/noteEditView.html:6
+msgid "Save"
+msgstr ""

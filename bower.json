@@ -1,0 +1,11 @@
+{
+  "name": "gemini-seed",
+  "description": "A starter test project for Gemini",
+  "version": "0.0.0",
+  "homepage": "https://bitbucket.org/knikolaenko/gemini",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

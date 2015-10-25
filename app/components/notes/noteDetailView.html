@@ -1,0 +1,7 @@
+<div ng-controller="noteDetailController">  
+  <h5>{{note.title}}</h5>
+  <div>
+    <button id="editNoteBtn" ui-sref="notes.detail.edit({'noteId':note.id})" class="btn btn-info" translate>Edit</button>
+    <button id="removeNoteBtn" ng-click="remove(note)" class="btn btn-danger" translate>Remove</button>
+  </div>
+</div>

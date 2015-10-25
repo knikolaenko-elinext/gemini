@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: app/components/navbar/navbarView.html:13
+msgid "About"
+msgstr "О программе"
+
+#: app/components/notes/noteDetailView.html:4
+msgid "Edit"
+msgstr "Редактировать"
+
+#: app/components/navbar/navbarView.html:4
+msgid "Gemini"
+msgstr "Гемини"
+
+#: app/components/about/aboutView.html:2
+msgid "Gemini Test Application"
+msgstr "Тестовое Приложение для Гемини"
+
+#: app/components/notes/notesListView.html:6
+msgid "New"
+msgstr "Создать"
+
+#: app/components/navbar/navbarView.html:10
+msgid "Notes"
+msgstr "Заметки"
+
+#: app/components/notes/noteDetailView.html:5
+msgid "Remove"
+msgstr "Удалить"
+
+#: app/components/notes/noteCreateView.html:6
+#: app/components/notes/noteEditView.html:6
+msgid "Save"
+msgstr "Сохранить"
