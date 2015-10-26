@@ -1,5 +1,7 @@
 # Gemini Demo App
 
+This web application is written on AngularJS + Bootstrap basis. [Ui-router](https://github.com/angular-ui/ui-router) is using for views routing. [Angular-gettext](https://angular-gettext.rocketeer.be/) adds multi-language support to the app. Source code is organized according CommonJS style and gets bundled by [Browserify](http://browserify.org/). Build process is automated by [Gulp](http://gulpjs.com/) (e.g. LESS compilation, JS/CSS resources concatenation and obfuscation)
+
 ### Prerequisites
 
 You need git to clone the project.
