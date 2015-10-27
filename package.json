@@ -39,7 +39,7 @@
   "scripts": {
     "postinstall": "bower install && gulp",
     "prestart": "npm install",
-    "start": "http-server ./app -a localhost -p 9000 -c-1 -o",
+    "start": "http-server ./app -a 0.0.0.0 -p 9000 -c-1 -o",
     "update-webdriver": "webdriver-manager update",
     "preprotractor": "npm run update-webdriver",
     "protractor": "protractor e2e-tests/protractor.conf.js"
