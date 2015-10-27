@@ -38,8 +38,10 @@ Now browse to the app at `http://localhost:9000/`
 * the configuration is found at `e2e-tests/protractor-conf.js`
 * the end-to-end tests are found in `e2e-tests/scenarios.js`
 
-	npm start
-	npm run protractor
+```
+npm start
+npm run protractor
+```
 
 This script will execute the end-to-end tests against the application being hosted on the
 development server.
