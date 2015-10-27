@@ -18,18 +18,24 @@ Also few npm packages must be installed on your system globally to build the pro
 
 ### Clone project
 
-	git clone https://github.com/knikolaenko-elinext/gemini.git
-	cd gemini
+```
+git clone https://github.com/knikolaenko-elinext/gemini.git
+cd gemini
+```
 	
 ### Install Dependencies
 
-	npm install
+```
+npm install
+```
 	
 That will download npm and bower dependencies in `node_modules` and `app/bower_components` respectively
 
 ### Run the Application
 
-	npm start
+```
+npm start
+```
 	
 Now browse to the app at `http://localhost:9000/`
 
